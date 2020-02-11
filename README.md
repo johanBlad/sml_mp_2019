@@ -1,2 +1,2 @@
-# sml_mp_2019
+# sml_mp_2020
 Miniproject for SML course UU spring 2020
