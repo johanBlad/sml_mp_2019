@@ -3,15 +3,15 @@ import os
 import pandas as pd
 import numpy as np
 import sklearn.preprocessing as skl_pre
-print("www22323w")
-print(np.__version__)
 # Load data and return dataframes
 def load_data():
     #path = os.getcwd() + "/src/python/sml/mp/"
-    path = os.getcwd() + "/Users/callewesterberg/Documents/GitHub/sml_mp_2020/calle"
+    #path = os.getcwd() + "/Users/callewesterberg/Documents/GitHub/sml_mp_2020/calle/"
     
-    test_data = pd.read_csv(path + "songs_to_classify.csv")
-    train_data = pd.read_csv(path + "training_data.csv")
+    # test_data = pd.read_csv(path + "songs_to_classify.csv")
+    # train_data = pd.read_csv(path + "training_data.csv")
+    test_data = pd.read_csv("songs_to_classify.csv")
+    train_data = pd.read_csv("training_data.csv")
     return (train_data, test_data)
 
 
